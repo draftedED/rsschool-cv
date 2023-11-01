@@ -1,1 +1,1 @@
-# rsschool-cv
+[CV Link](https://drafteded.github.io/rsschool-cv/cv)
