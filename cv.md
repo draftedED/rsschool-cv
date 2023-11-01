@@ -50,3 +50,13 @@ export const apiRequest = async (filter) => {
   }
 };
 ```
+
+***********
+
+## Education
+
+* __Voronezh State University__
+    * Faculty of Computer Science
+
+***********
+
