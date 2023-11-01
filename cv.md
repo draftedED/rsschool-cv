@@ -10,3 +10,7 @@
 * __Phone:__ +7 951 147 48 72
 * __Email:__ pavel.pavlov.edc@gmail.com
 * __GitHub:__ [draftedED](https://github.com/draftedED)
+
+## About me
+
+I'm 30 years old. I worked as a Cloud Engineer for the last 5 years. And I've decided to try myself in Frontend.
