@@ -11,9 +11,13 @@
 * __Email:__ pavel.pavlov.edc@gmail.com
 * __GitHub:__ [draftedED](https://github.com/draftedED)
 
+***********
+
 ## About me
 
 I'm 30 years old. I worked as a Cloud Engineer for the last 5 years. And I've decided to try myself in Frontend.
+
+***********
 
 ## Skills
 
@@ -23,3 +27,26 @@ I'm 30 years old. I worked as a Cloud Engineer for the last 5 years. And I've de
 * __JavaScript__
 * __Git\Github__
 * __VS code, IntelliJ IDEA__
+
+***********
+
+## Code example
+
+```
+export const apiRequest = async (filter) => {
+  const apiAccessKey = "###dpmiGSK0UdXWz-GILj7nLkVs5swHXv7RygE57###";
+  const apiURL = `https://api.unsplash.com/search/photos?client_id=${apiAccessKey}&page=1&per_page=30&query=${filter}`;
+
+  try {
+    const apiResponse = await fetch(apiURL);
+    const apiData = await apiResponse.json();
+
+    if (apiResponse.status === 200 && apiResponse.ok) {
+      apiResult = apiData.results;
+      setPhotos();
+    }
+  } catch (error) {
+    console.log(error);
+  }
+};
+```
