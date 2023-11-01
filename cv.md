@@ -60,3 +60,8 @@ export const apiRequest = async (filter) => {
 
 ***********
 
+## Courses
+
+* __RS Schools Frontend Course Stage 0__ ([RS School](https://rs.school/))
+* __HTML Academy__ ([HTMLAcademy](https://htmlacademy.ru/))
+* __HTML + CSS + Javascript on CodeBasics__ ([CodeBasics](https://code-basics.com/ru))
